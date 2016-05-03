@@ -10,15 +10,6 @@ Stable tag: 1.16.05.03
 
 Demo: http://rating.sodah.de
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="http://www.rating.sodah.de/jquery.sodah-rating.js"></script>
-<div id="stars1" style="font-family: 'Roboto', sans-serif; width: 100px;">
-    Stars1
-</div>
-<script>
-$("#stars1").sodahrating({count: "5", iconcolor: "#20938A", inputname: "stars1", type: "star", maxsize: "20", firstvalue: "1"});
-</script>
-
 # Get Started
 
 1. Upload the jquery.sodah-rating.min.js file to your js- or plugin-directory
