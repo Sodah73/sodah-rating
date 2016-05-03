@@ -2,7 +2,7 @@
  * jQuery Sodah Rating Plugin V1.16.05.03
  *
  * Copyright (C) SODAH | JOERG KRUEGER
- * http://www.sodah.de | http://rating.flashradio.info
+ * http://www.sodah.de | http://rating.sodah.de
  * 
  */
 (function (root, factory) {
