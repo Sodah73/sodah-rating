@@ -10,13 +10,21 @@ Stable tag: 1.16.05.03
 
 Demo: http://rating.sodah.de
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.rating.sodah.de/jquery.sodah-rating.js"></script>
+<div id="stars1" style="font-family: 'Roboto', sans-serif; width: 100px;">
+    Stars1
+</div>
+<script>
+$("#stars1").sodahrating({count: "5", iconcolor: "#20938A", inputname: "stars1", type: "star", maxsize: "20", firstvalue: "1"});
+</script>
+
 # Get Started
 
 1. Upload the jquery.sodah-rating.min.js file to your js- or plugin-directory
-2. initialize jQuery:  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-3. initialize Sodah Rating:  <script type="text/javascript" src="plugins/jquery.sodah-rating.js"></script>
-4. define a div container on the right place with your style settings for width (px or %): <div id="stars1" style="width: 100%;">Stars1</div>
-5. initialize the script:  $("#stars1").sodahrating({count: "5", iconcolor: "#20938A", inputname: "stars1", type: "star", maxsize: "20", firstvalue: "1"});
+2. initialize jQuery and Sodah Rating
+3. define a div container on the right place with your style settings for width (px or %)
+4. use the script:  $("#stars1").sodahrating({count: "5", iconcolor: "#20938A", inputname: "stars1", type: "star", maxsize: "20", firstvalue: "1"});
 
 # Parameters
 
