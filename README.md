@@ -20,12 +20,19 @@ Demo: http://rating.sodah.de
 # Parameters
 
 count : count of icons
+
 iconcolor : hexcolor for icons
+
 inputname : is important if you will post or get a value. here you can write your form input name
+
 type: star or score
+
 maxsize: is the max height/width from on icon in px.
+
 firstvalue : if you need a start value from 0 or 1 or other
+
 value : here you can set the value (p.e. after post/get)
+
 reverse : true/false for direction left to right or right to left
 
 # Support
